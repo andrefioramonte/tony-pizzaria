@@ -3,6 +3,7 @@
     --cor-secundaria:#fef2e7;
     --cor-branco:#fff;
     --cor-preta:#000;
+    ---cor-sombra:rgba(0, 0, 0, 0.397);
 }
 
 body{
@@ -47,16 +48,31 @@ header .menu ul a{
 header .menu ul a:hover{
     background-color: var(--cor-primaria);
     color: var(--cor-branco);
-    box-shadow: 0px 4px 8px var(--cor-preta);
+    box-shadow: 0px 4px 8px var(---cor-sombra);
 }
 
 
 header .botao-container{
-    background: #f07807;
-    border-radius: 12px;
     height: 60px;
     width: 150px;
+    display: flex;
+    justify-content: end;
+    align-items:center;
 
+}
+header .botao{
+    height: 48px;
+    width: 120px;
+    background-color: var(--cor-secundaria);
+    box-shadow: 0PX 4PX 8PX var(---cor-sombra);
+    border-radius: 12PX;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--cor-primaria);
+    font-weight: 600px;
 }
 
 main{
