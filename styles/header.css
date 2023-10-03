@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 60px;
+    top: 60px;
+    left: 80px;
+    right: 80px;
+}
+
+header .logo-container{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    width: 150px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 24px;
+    color: #F07807;
+}
+
+header .menu ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap:48px;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600px;
+}
+header .menu ul a{
+    padding: 2px 6px 2px 6px;
+    transition: .5s;
+}
+
+header .menu ul a:hover{
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    box-shadow: 0px 4px 8px var(---cor-sombra);
+}
+
+
+header .botao-container{
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: end;
+    align-items:center;
+
+}
+header .botao{
+    height: 48px;
+    width: 120px;
+    background-color: var(--cor-secundaria);
+    box-shadow: 0PX 4PX 8PX var(---cor-sombra);
+    border-radius: 12PX;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--cor-primaria);
+    font-weight: 600px;
+}
