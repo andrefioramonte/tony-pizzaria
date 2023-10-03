@@ -14,15 +14,19 @@
     justify-content: space-between;
     padding-left: 80px;
 }
+
+.conteudo-container .texto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 520px;
+}
+
 .conteudo-container h2{
     width: 558px;
-    height: 520px;
     font-size: 4rem;
     font-weight: 400;
     font-style: italic;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .conteudo-container div{
@@ -31,6 +35,9 @@
     width: 900px;
 }
 
+.texto-laranja{
+    color: var(--cor-primaria);
+}
 .destaque{
     position: relative;
 }
@@ -52,6 +59,7 @@
     height: 36px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     background-color: var(---cor-sombra);
     font-size: 0.8rem;
     height: 36px;
@@ -82,4 +90,11 @@
 .info-texto{
     width: 140px;
 }
+
+.info-preco{
+    background-color: var(--cor-primaria);
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+}
+
 
