@@ -5,6 +5,10 @@
     --cor-preta:#000;
     ---cor-sombra:rgba(0, 0, 0, 0.397);
 }
+/* efeto de rolagem suave */
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: var(--cor-secundaria);
