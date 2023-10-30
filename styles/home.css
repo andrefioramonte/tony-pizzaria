@@ -50,4 +50,12 @@
 }
 
 
+/* versao tablet */
+@media (max-width:768px){
 
+    .home{
+        background-image: url(/img/background-tablet.png);
+        background-position: top;
+        background-size: contain;
+    }
+}

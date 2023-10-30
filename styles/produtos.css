@@ -46,3 +46,23 @@
     padding: 4px 8px 4px 8px;
     border-radius: 6px;
 }
+
+/* versao tablet */
+@media (max-width:768px){
+
+.produto:nth-child(3){
+    display: none;
+}
+
+.produto:nth-child(4){
+    display: none;
+}
+
+.bebidas:nth-child(5){
+    display: none;
+}
+
+.bebidas:nth-child(4){
+    display: none;
+}
+}
