@@ -48,42 +48,7 @@ section{
     }
 
     100%{
-        transform: translateX(-50%) rotate(90deg) scale(1.2);
+        transform: translateX(-50%) rotate(90deg) scale(1.0);
         color: #f078075b;
     }
-}
-
-@media (max-width:768px){
-    body{
-    }
-    .menu{
-        display: none;
-    }
-
-    .destaque-container .produto{
-        display: none;
-    }
-
-    .conteudo-container{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .conteudo-container img{
-        padding-left: 60px;
-    }
-
-    .home{
-        align-items: center;
-        display: flex;
-    }
-
-
-    .texto{
-        padding-top: 211px;
-        display: flex;
-        flex-direction: column;
-    }
-
 }

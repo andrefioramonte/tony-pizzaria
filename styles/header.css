@@ -61,3 +61,10 @@ header .botao{
     color: var(--cor-primaria);
     font-weight: 600px;
 }
+/* tablet */
+@media (max-width:768px){
+
+    .menu{
+        display: none;
+    }
+}

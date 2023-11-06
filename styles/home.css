@@ -55,7 +55,34 @@
 
     .home{
         background-image: url(/img/background-tablet.png);
-        background-position: top;
-        background-size: contain;
+        background-position: right top;
     }
+    
+    .conteudo-container .texto{
+        justify-content:center;
+        padding-top: 150px;
+        width: 100vw;
+    }
+
+    .conteudo-container h2{
+        text-align: center;
+    }
+
+    .conteudo-container{
+        justify-content: center;
+        flex-direction:column;
+    }
+
+    .conteudo-container div{
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .destaque-container{
+        display: none;
+    }
+
+
 }
+
+

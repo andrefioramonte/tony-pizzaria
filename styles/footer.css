@@ -129,14 +129,16 @@ footer{
         display: none;
     }
 
-    .contatos{
-        justify-content: center;
+    .contatos-container{
+        gap: 100px;
+    }
+
+    .contato-logo{
         align-items: center;
     }
-
+    
     .contatos{
-        align-items: start;
-        padding-left: 20px;
-
+        justify-content: center;
     }
+
 }
