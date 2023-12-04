@@ -68,3 +68,15 @@ header .botao{
         display: none;
     }
 }
+
+/* versao mobile */
+
+@media (max-width:480px){
+
+    header{
+        width: 100vw;
+        top: 10px;
+        left: 5px;
+        right: 5px;
+    }
+}

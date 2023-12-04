@@ -110,3 +110,20 @@
         padding-top: 60px;
     }
 }
+
+/* versao mobile */
+
+@media (max-width:480px){
+    .cardapio h3{
+        font-size: 2rem;
+    }
+
+
+    .cardapio-favoritas p{
+        font-size: .8rem;
+    }
+
+    .cardapio{
+        height: 100%;
+    }
+}

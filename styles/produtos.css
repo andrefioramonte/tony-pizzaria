@@ -65,4 +65,26 @@
 .bebidas:nth-child(4){
     display: none;
 }
+.bebidas:nth-child(2){
+    display: none;
+}
+}
+
+
+/* versao mobile */
+
+@media (max-width:480px){
+
+    .produto:nth-child(1){
+        display: none;
+    }
+
+    .bebidas:nth-child(3){
+        display: none;
+    }
+
+
+    .produtos-container{
+        justify-content: center;
+    }
 }

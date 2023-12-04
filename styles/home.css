@@ -81,8 +81,37 @@
     .destaque-container{
         display: none;
     }
+}
+/* versao mobile */
+@media (max-width:480px){
+    .home{
+        height: 100vh;
+    }
+
+    .conteudo-container .texto{
+    padding-top: 100px;
+    width: 100vw;
+    }
+
+    .conteudo-container h2{
+        font-size: 2rem;
+    }
+
+    .conteudo-container img{
+        width: 315px;
+        height: 205px;
+    }
+
+    .conteudo-container .imagem{
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    .conteudo-container .texto{
+        height: 200px;
+        width: 100vw;
+    }
 
 
 }
-
 

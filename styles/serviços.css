@@ -85,3 +85,25 @@
         grid-area:texto;
     }
 }
+
+/* versao mobile */
+
+@media(max-width:480px){
+
+.servico-texto{
+    display: none;
+}
+
+
+.servicos-titulo{
+    justify-content: center;
+}
+.servicos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+}
